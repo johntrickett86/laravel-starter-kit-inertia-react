@@ -30,7 +30,10 @@ final class User extends Authenticatable implements MustVerifyEmail
     /**
      * @use HasFactory<UserFactory>
      */
-    use HasFactory, Notifiable, TwoFactorAuthenticatable;
+    use HasFactory;
+
+    use Notifiable;
+    use TwoFactorAuthenticatable;
 
     /**
      * @var list<string>
@@ -45,7 +48,7 @@ final class User extends Authenticatable implements MustVerifyEmail
     /**
      * @return array<string, string>
      */
-    public function casts(): array
+    protected function casts(): array
     {
         return [
             'id' => 'integer',

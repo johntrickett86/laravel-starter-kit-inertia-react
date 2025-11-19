@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers;
 
-use App\Actions\CreateUserEmailResetNotification;
+use App\Actions\User\CreateUserEmailResetNotification;
 use App\Http\Requests\CreateUserEmailResetNotificationRequest;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;

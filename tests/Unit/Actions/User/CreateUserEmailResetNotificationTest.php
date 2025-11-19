@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use App\Actions\CreateUserEmailResetNotification;
+use App\Actions\User\CreateUserEmailResetNotification;
 use App\Models\User;
 use Illuminate\Auth\Notifications\ResetPassword;
 use Illuminate\Support\Facades\Notification;
@@ -33,6 +33,7 @@ it('returns throttled status when too many attempts', function (): void {
 
     // Send multiple reset requests to trigger throttling
     $action->handle(['email' => $user->email]);
+
     $status = $action->handle(['email' => $user->email]);
 
     expect($status)->toBe(Password::RESET_THROTTLED);

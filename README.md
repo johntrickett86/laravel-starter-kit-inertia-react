@@ -1,19 +1,3 @@
-- Inertia & React (this project) version: **[github.com/nunomaduro/laravel-starter-kit-inertia-react](https://github.com/nunomaduro/laravel-starter-kit-inertia-react)**
-- Blade version: **[github.com/nunomaduro/laravel-starter-kit](https://github.com/nunomaduro/laravel-starter-kit)**
-
-<p align="center">
-    <a href="https://youtu.be/VhzP0XWGTC4" target="_blank">
-        <img src="https://github.com/nunomaduro/laravel-starter-kit/blob/main/art/banner.png" alt="Overview Laravel Starter Kit" style="width:70%;">
-    </a>
-</p>
-
-<p>
-    <a href="https://github.com/nunomaduro/laravel-starter-kit-inertia-react/actions"><img src="https://github.com/nunomaduro/laravel-starter-kit-inertia-react/actions/workflows/tests.yml/badge.svg" alt="Build Status"></a>
-    <a href="https://packagist.org/packages/nunomaduro/laravel-starter-kit-inertia-react"><img src="https://img.shields.io/packagist/dt/nunomaduro/laravel-starter-kit-inertia-react" alt="Total Downloads"></a>
-    <a href="https://packagist.org/packages/nunomaduro/laravel-starter-kit-inertia-react"><img src="https://img.shields.io/packagist/v/nunomaduro/laravel-starter-kit-inertia-react" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/nunomaduro/laravel-starter-kit-inertia-react"><img src="https://img.shields.io/packagist/l/nunomaduro/laravel-starter-kit-inertia-react" alt="License"></a>
-</p>
-
 **Laravel Starter Kit (Inertia & React)** is an ultra-strict, type-safe [Laravel](https://laravel.com) skeleton engineered for developers who refuse to compromise on code quality. This opinionated starter kit enforces rigorous development standards through meticulous tooling configuration and architectural decisions that prioritize type safety, immutability, and fail-fast principles.
 
 ## Why This Starter Kit?
@@ -31,7 +15,7 @@ Modern PHP has evolved into a mature, type-safe language, yet many Laravel proje
 - **AI Guidelines**: Integrated AI Guidelines to assist in maintaining code quality and consistency
 - **Full Testing Suite**: More than 150 tests with 100% code coverage using Pest
 - 
-This isn't just another Laravel boilerplate—it's a statement that PHP applications can and should be built with the same rigor as strongly-typed languages like Rust or TypeScript.
+This isn't just another Laravel boilerplate—it's a statement that PHP applications can and should be built with the same rigour as strongly typed languages like Rust or TypeScript.
 
 ## Getting Started
 
@@ -40,7 +24,7 @@ This isn't just another Laravel boilerplate—it's a statement that PHP applicat
 Create your type-safe Laravel application using [Composer](https://getcomposer.org):
 
 ```bash
-composer create-project nunomaduro/laravel-starter-kit-inertia-react --prefer-dist example-app
+composer create-project johntrickett86/laravel-starter-kit-inertia-react --prefer-dist example-app
 ```
 
 ### Initial Setup
@@ -55,15 +39,6 @@ composer setup
 
 # Start the development server
 composer dev
-```
-
-### Optional: Browser Testing Setup
-
-If you plan to use Pest's browser testing capabilities:
-
-```bash
-npm install playwright
-npx playwright install
 ```
 
 ### Verify Installation

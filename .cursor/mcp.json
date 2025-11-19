@@ -1,11 +1,27 @@
 {
-    "mcpServers": {
-        "laravel-boost": {
-            "command": "php",
-            "args": [
-                "artisan",
-                "boost:mcp"
-            ]
-        }
+  "mcpServers": {
+    "laravel-boost": {
+      "command": "php",
+      "args": [
+        "artisan",
+        "boost:mcp"
+      ]
+    },
+    "herd": {
+      "command": "php",
+      "args": [
+        "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"
+      ],
+      "env": {
+        "SITE_PATH": "/Users/johntrickett/Code/laravel-starter-kit-inertia-react"
+      }
+    },
+    "shadcn": {
+      "command": "npx",
+      "args": [
+        "shadcn@latest",
+        "mcp"
+      ]
     }
+  }
 }
